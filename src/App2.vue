@@ -78,13 +78,8 @@
     methods: {
       mouseMove: function(event){
 
-        const x = event.clientX;
-        const y = event.clientY;
-        if(x === null || y === null){
-          return;
-        }
-        this.x = x;
-        this.y = y;
+        this.x = event.clientX;
+        this.y = event.clientY;
 
         for(var i = 0; i < this.layersCount; i++){
           this.$set(this.layers[i], 'style', {
@@ -101,10 +96,14 @@
       handleMotion: function(event){
         console.log(event);
 
-        this.x = event.acceleration.x;
-        this.y = event.acceleration.y;
+        const x = event.acceleration.x;
+        const y = event.acceleration.y;
 
-        if()
+        if(x === null || y === null){
+          return;
+        }
+        this.x = x;
+        this.y = y;
 
         for(var i = 0; i < this.layersCount; i++){
           this.$set(this.layers[i], 'style', {
