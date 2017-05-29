@@ -8,7 +8,7 @@
             </svg>
         </div>
         <div class="layer" :style="sun.style" >
-            <img src="/src/assets/jupiter.png" width="100px" height="100px" :style="{top: sun.y, left: sun.x}" class="object"/>
+            <img src="./assets/jupiter.png" width="100px" height="100px" :style="{top: sun.y, left: sun.x}" class="object"/>
         </div>
     </div>
 
@@ -137,7 +137,7 @@
     }
 
     .layer.background{
-        background: url("/src/assets/back.jpg");
+        background: url("./assets/back.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-origin: content-box;

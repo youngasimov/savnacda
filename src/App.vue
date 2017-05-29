@@ -178,7 +178,7 @@
     }
 
     .background-inner {
-        background-image: url("/src/assets/back3.jpg");
+        background-image: url("./assets/back3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         animation: slow-move 15s linear infinite;
@@ -217,6 +217,9 @@
         height: auto;
         -webkit-box-shadow: 0 0 20px 3px rgba(100, 100, 100, 1);
         box-shadow: 0 0 20px 3px rgba(100, 100, 100, 1);
+        img{
+            width: 100%;
+        }
     }
 
     .initial-animation-active-class {
@@ -247,15 +250,15 @@
     }
 
     #back1 {
-        background-image: url("/src/assets/back1.jpg");
+        background-image: url("./assets/back1.jpg");
     }
 
     #back2 {
-        background-image: url("/src/assets/back2.jpg");
+        background-image: url("./assets/back2.jpg");
     }
 
     #back3 {
-        background-image: url("/src/assets/back3.jpg");
+        background-image: url("./assets/back3.jpg");
     }
 
     .grid {
