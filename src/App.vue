@@ -181,6 +181,7 @@
         background-image: url("./assets/back3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         animation: slow-move 15s linear infinite;
         transform: translateX(10px) translateZ(50px);
     }

@@ -50,6 +50,7 @@
     mounted: function(){
       this.width= this.$el.clientWidth;
       this.height= this.$el.clientHeight;
+      console.log(this.width,this.height);
 
       for(var i = 0; i < this.layersCount; i++){
         var layer = {
@@ -122,6 +123,13 @@
 </script>
 
 <style lang='scss'>
+
+    html, body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    }
 
 
     .container {
