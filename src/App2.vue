@@ -144,7 +144,6 @@
         });
       },
       handleMotion: function (event) {
-        console.log(event.rotationRate);
         const dx = event.rotationRate.beta;
         const dy = event.rotationRate.alpha;
         this.dx = (dx === null) ? 0 : dx;
