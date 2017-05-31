@@ -47,7 +47,7 @@ window.addEventListener('mousemove', function (event) {
 
 var loader = new THREE.TextureLoader();
 
-loader.load('/src/assets/spikey.png', function (texture) {
+loader.load('/savnacda/src/assets/spikey.png', function (texture) {
 
   material = new THREE.PointsMaterial({
     color: 0xFFFFFF,
