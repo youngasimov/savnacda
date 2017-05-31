@@ -6,7 +6,9 @@
 
 [task 1](https://youngasimov.github.io/savnacda/) Landing page and image grid
 
-[task 2](https://youngasimov.github.io/savnacda/index2.html) web starfield 
+[task 2](https://youngasimov.github.io/savnacda/index2.html) svg starfield
+ 
+[task 3](https://youngasimov.github.io/savnacda/index3.html) WebGL starfield
 
 
 ## Build Setup

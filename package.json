@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "dreamer-vue-components": "^1.1.0",
+    "lodash": "^4.17.4",
     "vue": "^2.3.3",
     "vue-progressive-image": "^2.0.0"
   },
